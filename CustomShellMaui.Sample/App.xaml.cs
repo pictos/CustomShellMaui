@@ -1,14 +1,17 @@
-﻿namespace CustomShellMaui.Sample;
+﻿
+namespace CustomShellMaui.Sample;
 
 public partial class App : Application
 {
 	public App()
 	{
 		InitializeComponent();
-
-		var shell = new AppShell();
-		
-		MainPage = shell;
 	}
+
+
+    protected override Window CreateWindow(IActivationState activationState)
+    {
+		return new Window(new AppShell());
+    }
 }
 
