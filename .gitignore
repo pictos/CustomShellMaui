@@ -401,3 +401,7 @@ MobileDisplay/.idea/.idea.MobileDisplay/.idea/indexLayout.xml
 .meteor
 
 *.zip
+CustomShellMaui/obj
+CustomShellMaui.Sample/obj
+CustomShellMaui.Sample/.DS_Store
+.DS_Store
